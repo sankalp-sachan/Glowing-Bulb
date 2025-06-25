@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wire{
+    width: 5px;
+    height: 200px;
+    background-color:rgb(219, 6, 6);
+}
+.base{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(94, 93, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5px;
+    /* position: absolute; */
+}
+.base .l{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+}
+#bulb {
+    /* position: relative; */
+    width: 100px;
+    height: 150px;
+    border: 0.5px solid white;
+    /* background: yellow; */
+    border-radius: 50% 50% 45% 45% / 60% 60% 40% 40%;
+    /* background-color: white; */
+    /* box-shadow: 0 0 30px yellow; */
+    display: flex;
+    align-items: center;
+}
+.gl{
+    background-color: white;
+}
+.on{
+    background-color: rgb(229, 207, 65);
+    border: 2px solid rgb(229, 207, 65);
+    box-shadow: 0 0 300px rgb(229, 207, 65);
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border: 2px solid black;
+    height: 50px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
